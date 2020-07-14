@@ -1,0 +1,61 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Personal info
+name: Samuel Brand
+title: C++ Software Engineer
+email: jobs@samuelbrand.ch
+website: www.samuelbrand.ch
+
+# Social links
+linkedin_username: brandsamuel
+
+# About Section
+
+about_title: Über mich
+about_profile_image: images/profile.jpg
+about_content: |
+  _C++11 and beyond with Modern CMake_
+
+experience_title: Berufliche Erfahrung
+
+education_title: Ausbildung
+
+more_title: Weiteres & Freizeit
+more_content: |
+
+  #### IT Kenntnisse
+  Experte: C++, CMake, Boost, Linux, Docker, Puppet, Git
+
+  Fortgeschritten: Jetbrains IDEs, Clean Code, Apple macOS, Microsoft Windows, Jenkins CI/CD, Atlassian JIRA, Atlassian Confluence, Qt, Ansible
+
+  Grundkenntnisse: Java, iOS, Android, Python
+
+  ---
+
+  #### Sprachen
+
+  * Deutsch, Muttersprache
+  * Englisch, fliessend
+  * Französich, gute Grundkenntnisse
+
+  ---
+
+  #### Freizeit
+  - Rennrad fahren
+  - Reisen
+  - Fotografie
+  - Plane Spotting
+  - Ship Spotting
+
+footer_show_references: false
+
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
