@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 name: Samuel Brand
 title: C++ Software Engineer
 email: jobs@samuelbrand.ch
-website: blog.samuelbrand.ch
+website: www.samuelbrand.ch
 
 # Social links
 linkedin_username: brandsamuel
@@ -26,9 +26,9 @@ more_title: Weiteres & Freizeit
 more_content: |
 
   #### IT Kenntnisse
-  Experte: C++, CMake, Boost, Linux, Docker, Puppet, Git
+  Experte: C++, CMake, Boost, GNU/Linux, Docker, Puppet, Git
 
-  Fortgeschritten: Jetbrains IDEs, Clean Code, Apple macOS, Microsoft Windows, Jenkins CI/CD, Atlassian JIRA, Atlassian Confluence, Qt, Ansible
+  Fortgeschritten: Jetbrains IDEs, Clean Code, Apple macOS, Microsoft Windows, CI/CD, Atlassian JIRA, Atlassian Confluence, Qt, Ansible
 
   Grundkenntnisse: Java, iOS, Android, Python
 
