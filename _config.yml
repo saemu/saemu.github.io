@@ -1,6 +1,8 @@
 # Site
 repository: saemu/saemu.github.io
 favicon: images/favicon.ico
+darkmode: true
+version: 2
 
 # Personal info
 name: Samuel Brand
@@ -10,9 +12,10 @@ website: www.samuelbrand.ch
 
 # Social links
 linkedin_username: brandsamuel
+xing_username: Samuel_Brand
+
 
 # About Section
-
 about_title: Über mich
 about_profile_image: images/profile.jpg
 about_content: |
@@ -24,37 +27,130 @@ about_content: |
 
   Durch die gelebten Clean Code Praktiken und Prinzipien werden Sie in Zukunft einem neuem Release gelassen entgegen schauen.
 
+content:
+  - title: Berufliche Erfahrung
+    layout: list
+    content:
+    - layout: top
+      title: KSP Kanzlei Dr. Seegers, Dr. Frankenheim Rechtsanwaltsgesellschaft mbH
+      sub_title: Software Entwickler
+      caption: November 2020 bis jetzt
+      link: www.ksp.de
+      description: |
+        Inhouse Qt5 und C++ Software Entwicklung.
 
-experience_title: Berufliche Erfahrung
+    - layout: top
+      title: cubeware GmbH
+      sub_title: C++ Software Engineer
+      caption: Dezember 2019 bis Oktober 2020
+      link: www.cubeware.com
+      description: |
+        <mark>C++14</mark> Software Entwicklung im verteilten Produktentwicklungsteam, Zusammenarbeit mit Microsoft Teams und <mark>Atlassian Confluence</mark>.
+        Implementation neuer Features und Bugfixing für ETL Applikation des Business Intelligence Systems mit Microsoft Visual Studio und TFS.
 
-education_title: Ausbildung
+    - layout: top
+      title: Dermalog Identification Systems GmbH
+      link: www.dermalog.com
+      sub_title: Systems Engineer
+      caption: Juli 2015 bis Dezember 2019
+      description: |
+        Software Entwicklung im Backend Produkt Team mit C++14 mit <mark>Enterprise Linux</mark> als Platform.
 
-more_title: Weiteres & Freizeit
-more_content: |
+        Implementation und Testen von verteilten und hochverfügbaren Backend Services für biometrische Identifikationssysteme
+        mit C++14, <mark>CMake</mark>, Google Protobuf und ZeroMQ. Entwicklungsprozess nach <mark>KANBAN</mark> abgebildet mit <mark>Atlassian JIRA</mark>.
+        Automatisierung der Software Builds mit <mark>Git</mark>, Gerrit Codereview, Jenkins CI und Linux Docker Container.
+        Software Paketierung mit <mark>RPM</mark> und automatisches Deployment mit <mark>Puppet</mark>.
+        Etablierung von <mark>Clean Code</mark> Praktiken und Tugenden. Software Dokumentation mit Atlassian Confluence.
 
-  #### IT Kenntnisse
-  Experte: C++, CMake, Boost, GNU/Linux, Docker, Puppet, Git
+        Troubleshooter für Linux
 
-  Fortgeschritten: Jetbrains IDEs, Clean Code, Apple macOS, Microsoft Windows, CI/CD, Atlassian JIRA, Atlassian Confluence, Qt, Ansible
+    - layout: top
+      title: RUAG Schweiz AG, RUAG Aviation
+      sub_title: Software Engineer
+      link: www.ruag.com
+      caption: März 2010 bis Juni 2015
+      description: |
+        Software Entwicklung im Projekt Team mit C++11 unter Red Hat Enterprise Linux.
 
-  Grundkenntnisse: Java, iOS, Android, Python
+        Analyse und Design neuer Anforderungen für das Taktisches Ground Support System für die F/A-18 der Schweizer Luftwaffe mit <mark>IBM Telelogic DOORS</mark>.
+        Implementation neuer Features und Bugfixes mit C++11, <mark>Qt4</mark> und ICS BX Pro. Software Versionierung mit Perforce.
 
-  ---
+        Troubleshooter für Linux
 
-  #### Sprachen
+    - layout: top
+      title: RUAG Aerospace AG
+      sub_title: Software Entwickler
+      link: www.ruag.com
+      caption: März 2008 bis Februar 2010
+      description: |
+        Software Entwicklung im Projekt Team.
 
-  * Deutsch, Muttersprache
-  * Englisch, fliessend
-  * Französich, gute Grundkenntnisse
+        Implementation neuer Features und Bugfixes mit C++03 und ICS BX Pro.
 
-  ---
+    - layout: top
+      title: RUAG Aerospace AG
+      sub_title: Praktikant
+      link: www.ruag.com
+      caption: September 2007 bis Februar 2008
+      description: |
+        Praktikum in der Software Entwicklung.
 
-  #### Freizeit
-  - Rennrad fahren
-  - Reisen
-  - Fotografie
-  - Plane Spotting
-  - Ship Spotting
+  - title: Ausbildung
+    layout: list
+    content:
+    - layout: top
+      title: Berner Fachhochschule
+      sub_title: Bachelor of Science BFH
+      caption: 2010 - 2013
+      description: |
+        Informatik Studium mit Vertiefung in Computer Perception and Virtual Reality.
+
+    - layout: top
+      title: Sulzer Textil AG
+      sub_title: Polymechaniker
+      caption: 1998 - 2002
+      description: |
+        Ausbildung zum Polymechaniker mit Vertiefung in Elektrotechnik
+
+        Berufsmaturität GIBB Solothurn
+
+  - title: IT Kenntnisse
+    layout: list
+    content:
+    - layout: top
+      title: Experte
+      description: C++, CMake, Boost, GNU/Linux, Docker, Puppet, Git, Qt
+
+    - layout: top
+      title: Fortgeschritten
+      description: Jetbrains IDEs, Clean Code, Apple macOS, Microsoft Windows, CI/CD, Atlassian JIRA, Atlassian Confluence, Ansible
+
+    - layout: top
+      title: Grundkenntnisse
+      description: Java, iOS, Android, Python, Swift
+
+  - title: Sprachen
+    layout: list
+    content:
+      - layout: top
+        title: Muttersprache
+        description: Deutsch
+
+      - layout: top
+        title: fliessend
+        description: Englisch
+
+      - layout: top
+        title: Grundkenntnisse
+        description: Französich
+
+  - title: Freizeit
+    layout: text
+    content: | # - Rennrad fahren
+      - Reisen
+      - Fotografie
+      - Plane Spotting
+      - Ship Spotting
 
 footer_show_references: false
 
